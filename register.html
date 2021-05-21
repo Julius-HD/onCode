@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+ 
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--<link rel="stylesheet" type="text/css" href="/code.css" />-->
+    <script src="/reg.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/bootstrap.css" />
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background: url(/true.png) no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+      }
+      #box{
+        width: 700px;
+        height: 500px;
+        left: 50%;
+        top: 50%;
+        margin-left: -350px;
+        margin-top: -250px;
+        position: absolute;
+      }
+    </style>
+  </head>
+ 
+  <body>
+    <div id="box">
+      <div class="container">
+      <div class="row clearfix">
+        <div class="col-md-10 column">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">UserName:</label>
+              <div id="uname_box" class="col-sm-6">
+                <input id="uname" name="uname" type="text" class="form-control" placeholder="Please enter a user name" />
+              </div>
+              <div id="p1">
+ 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">UserPassword:</label>
+              <div class="col-sm-6">
+                <input id="upwd" name='upwd' type="password" class="form-control" placeholder="Please enter your user password"/>
+              </div>
+              <div id="p2">
+ 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">ConfirmPassword:</label>
+              <div class="col-sm-6">
+                <input id="upwd1" name='upwd' type="password" class="form-control" placeholder="Confirm user password"/>
+              </div>
+              <div id="p3">
+ 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Email:</label>
+              <div class="col-sm-6">
+                <input id="email" name="email" type="text" class="form-control" placeholder="Please enter user email"/>
+              </div>
+              <div id="p4">
+ 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Tel:</label>
+              <div class="col-sm-6">
+                <input id="phone" name="phone" type="text" class="form-control" placeholder="Please enter the user's mobile phone number"/>
+              </div>
+              <div id="p5">
+ 
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-8">
+                <button id="reg" type="submit" class="btn col-lg-9 btn-info">Register</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
